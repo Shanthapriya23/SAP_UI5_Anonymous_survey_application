@@ -1,0 +1,11 @@
+/* Enter your custom styles here */
+.glossyBar {
+    background: linear-gradient(to bottom, #f9f9f9, #e9e9e9);
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.highlightBar {
+    background: #FFD700 !important; /* Gold color for the highest bar */
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}

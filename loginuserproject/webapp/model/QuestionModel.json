@@ -1,0 +1,32 @@
+{
+    "questions": [
+      {
+        "id": "Q1",
+        "text": "Choose your MVP",
+        "options": [
+          { "id": "Q1_Opt1", "text": "employee1", "vote":8},
+          { "id": "Q1_Opt2", "text": "employee2", "vote":13 },
+          { "id": "Q1_Opt3", "text": "employee3", "vote":6 },
+          { "id": "Q1_Opt4", "text": "employee4", "vote":4 },
+          { "id": "Q1_Opt5", "text": "employee5", "vote":7 },
+          { "id": "Q1_Opt6", "text": "employee6", "vote":2 },
+          { "id": "Q1_Opt7", "text": "employee7", "vote":10 }
+        ]
+      },
+      {
+        "id": "Q2",
+        "text": "Which new initiative would you like to see at SAP?",
+        "options": [
+          { "id": "Q2_Opt1", "text": "More Remote Work Opportunities", "vote":2 },
+          { "id": "Q5_Opt2", "text": "Enhanced Employee Wellness Programs", "vote": 8 },
+          { "id": "Q5_Opt3", "text": "Increased Diversity and Inclusion Efforts", "vote": 9 },
+          { "id": "Q2_Opt4", "text": "Professional Development and Training", "vote": 5 },
+          { "id": "Q2_Opt5", "text": "Sustainability and Green Initiatives", "vote": 4 },
+          { "id": "Q2_Opt6", "text": "Flexible Working Hours", "vote": 7 },
+          { "id": "Q2_Opt7", "text": "More Team Building Activities", "vote": 3 }
+        ]
+      }
+    ],
+    "responses": []
+  }
+  

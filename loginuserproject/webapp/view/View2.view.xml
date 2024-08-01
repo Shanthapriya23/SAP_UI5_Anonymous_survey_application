@@ -1,0 +1,42 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="loginuserproject.controller.View2">
+    <Page id="page" title="Survey Question Poll">
+        <content>
+            <Panel headerText="{/questions/0/text}" class="sapUiSmallMargin" >
+                <VBox>
+                    <RadioButtonGroup id="radioGrp1" columns="1">
+                        <buttons>
+                            <RadioButton text="{/questions/0/options/0/text}" />
+                            <RadioButton text="{/questions/0/options/1/text}" />
+                            <RadioButton text="{/questions/0/options/2/text}" />
+                            <RadioButton text="{/questions/0/options/3/text}" />
+                            <RadioButton text="{/questions/0/options/4/text}" />
+                            <RadioButton text="{/questions/0/options/5/text}" />
+                            <RadioButton text="{/questions/0/options/6/text}" />
+                        </buttons>
+                    </RadioButtonGroup>
+                </VBox>
+            </Panel>
+
+            <Panel headerText="{/questions/1/text}" class="sapUiSmallMargin">
+                <VBox>
+                    <RadioButtonGroup id="radioGrp2" columns="1">
+                        <buttons>
+                            <RadioButton text="{/questions/1/options/0/text}" />
+                            <RadioButton text="{/questions/1/options/1/text}" />
+                            <RadioButton text="{/questions/1/options/2/text}" />
+                            <RadioButton text="{/questions/1/options/3/text}" />
+                            <RadioButton text="{/questions/1/options/4/text}" />
+                            <RadioButton text="{/questions/1/options/5/text}" />
+                            <RadioButton text="{/questions/1/options/6/text}" />
+                        </buttons>
+                    </RadioButtonGroup>
+                </VBox>
+            </Panel>
+
+            <FlexBox class="sapUiSmallMargin" justifyContent="Center" alignItems="Center">
+                <Button text="Submit" type="Accept" press="onSubmit" class="sapUiSmallMargin"/>
+                <Button icon="sap-icon://nav-back" text="Back" press="onNavBack"/>
+            </FlexBox>
+        </content>
+    </Page>
+</mvc:View>

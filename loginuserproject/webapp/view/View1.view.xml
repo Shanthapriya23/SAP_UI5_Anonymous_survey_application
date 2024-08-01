@@ -1,0 +1,42 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+          xmlns="sap.m"
+          xmlns:form="sap.ui.layout.form"
+          controllerName="loginuserproject.controller.View1"
+          displayBlock="true">
+    <Page id="page" title="Login Page of The Anonymous Survey">
+        <content>
+            <FlexBox
+                direction="Column"
+                alignItems="Center"
+                justifyContent="Center"
+                height="100vh"
+                width="100%">
+                <Panel width="100%" maxWidth="400px" class="sapUiSmallMargin">
+                    <form:SimpleForm editable="true"
+                                    layout="ResponsiveGridLayout"
+                                    adjustLabelSpan="false"
+                                    labelSpanL="4"
+                                    labelSpanM="4"
+                                    labelSpanS="12"
+                                    columnsL="1"
+                                    columnsM="1"
+                                    emptySpanL="4"
+                                    emptySpanM="4">
+                        <form:content>
+                            <Label text="Username" required="true"/>
+                            <Input id="inp_usernameId"/>
+                            <Label text="Password" required="true"/>
+                            <Input id="inp_passwordId" type="Password"/>
+                        </form:content>
+                    </form:SimpleForm>
+                    <!-- Login Button  -->
+                    <Bar design="Footer" class="sapUiSmallMarginTop">
+                        <contentRight>
+                            <Button text="Login" type="Accept" press="onLoginUser"/>
+                        </contentRight>
+                    </Bar>
+                </Panel>
+            </FlexBox>
+        </content>
+    </Page>
+</mvc:View>

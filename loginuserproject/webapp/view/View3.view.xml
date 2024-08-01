@@ -1,0 +1,33 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="loginuserproject.controller.View3">
+    <Page id="page" title="Poll Results">
+        <content>
+            <Panel headerText="{hellox>/Q1/QuestionText}" class="sapUiSmallMargin">
+                <VBox>
+                    <List items="{hellox>/Q1/votes}">
+                        <StandardListItem 
+                            title="{hellox>text}" 
+                            description="{hellox>vote} votes"
+                            icon="{= ${hellox>selected} ? 'sap-icon://accept' : '' }" />
+                    </List>
+                </VBox>
+            </Panel>
+
+            <Panel headerText="{hellox>/Q2/QuestionText}" class="sapUiSmallMargin">
+                <VBox>
+                    <List items="{hellox>/Q2/votes}">
+                        <StandardListItem 
+                            title="{hellox>text}" 
+                            description="{hellox>vote} votes"
+                            icon="{= ${hellox>selected} ? 'sap-icon://accept' : '' }" />
+                    </List>
+                </VBox>
+            </Panel>
+
+            <FlexBox class="sapUiSmallMargin" justifyContent="Center" alignItems="Center">
+                <Button text="Analyse with Bar Charts" press="onClickAnalysis" class="sapUiSmallMargin"/>
+                <Button text="Analyse with Pie Charts" press="onSwitchToPieCharts" class="sapUiSmallMargin"/>
+                <Button text="Back to Poll" press="onBackToPoll" class="sapUiSmallMargin"/>
+            </FlexBox>
+        </content>
+    </Page>
+</mvc:View>
